@@ -1,9 +1,9 @@
 # chatroom
 
-###Introduction
+### Introduction
 > a tiny chatroom(base on websocket+node+redis+mongodb)
 
-Setup
+### Setup
 ``` bash
 # install redis & start
 
