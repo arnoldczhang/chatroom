@@ -1,0 +1,17 @@
+CACHE MANIFEST
+#上面一句必须
+#v1.0.1
+#需要缓存的文件
+CACHE:
+socket.css
+socket.js
+public/images/QQexpression/1.gif
+public/images/QQexpression/2.gif
+public/images/QQexpression/3.gif
+public/images/QQexpression/4.gif
+#不需要缓存的文件
+NETWORK:
+*
+#无法访问页面
+FALLBACK:
+./ ./404.html
