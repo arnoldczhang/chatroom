@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "chat": "redis-server /usr/local/etc/redis.conf & mongod & node websocket.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
